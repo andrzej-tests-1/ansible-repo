@@ -1,0 +1,5 @@
+[jenkins:children]
+jenkins-demo
+
+[jenkins-demo]
+35.246.178.177

@@ -1,0 +1,4 @@
+---
+
+- import_playbook: python-for-debian-like-os.yaml
+- import_playbook: jenkins.yml

@@ -1,0 +1,11 @@
+---
+
+- name: geerlingguy.jenkins
+  scm: git
+  src: git@github.com:geerlingguy/ansible-role-jenkins.git
+  version: 3.7.0
+
+- name: geerlingguy.java
+  scm: git
+  src: git@github.com:geerlingguy/ansible-role-java.git
+  version: 1.9.5
