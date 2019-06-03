@@ -9,10 +9,14 @@ docker_users:
 
 gcloud_archive_name: google-cloud-sdk-248.0.0-linux-x86_64.tar.gz
 gcloud_tmp_path: /tmp
+gcloud_install_path: /var/lib/jenkins
 gcloud_additional_components:
     - kubectl
     - docker-credential-gcr
 
-packages:
+packages_apt:
     - ansible
     - ansible-lint
+
+packages_snap:
+    - helm

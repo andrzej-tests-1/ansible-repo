@@ -9,8 +9,13 @@
     - role: geerlingguy.docker
     - role: chouseknecht.gcloud
   tasks:
-    - name: Install additional packages
+    - name: Install apt packages
       apt:
-        name: "{{ packages }}"
+        name: "{{ packages_apt }}"
         state: present
         update_cache: true
+    - name: Install snap packages
+      snap:
+        name: "{{ packages_snap }}"
+        state: present
+        classic: true
