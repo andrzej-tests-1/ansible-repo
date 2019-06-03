@@ -1,5 +1,5 @@
 [jenkins:children]
-jenkins-demo
+jenkins_demo
 
-[jenkins-demo]
+[jenkins_demo]
 35.246.178.177

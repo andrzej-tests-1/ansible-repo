@@ -9,3 +9,13 @@
   scm: git
   src: git@github.com:geerlingguy/ansible-role-java.git
   version: 1.9.5
+
+- name: geerlingguy.docker
+  scm: git
+  src: git@github.com:geerlingguy/ansible-role-docker.git
+  version: 2.5.2
+
+- name: chouseknecht.gcloud
+  scm: git
+  src: git@github.com:ansible/role-install-gcloud.git
+  version: master  # there is no other tags - only master branch :/
