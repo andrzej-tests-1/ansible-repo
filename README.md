@@ -20,5 +20,5 @@ $ ansible-playbook -u root project.yml
 
 You have to update ```requirements.yml``` file (please don't use "latest" tag for role version) and then apply below command:
 ```
-$ ansible-galaxy install -r requirements.yml
+$ ansible-galaxy install -r requirements.yml -p roles
 ```

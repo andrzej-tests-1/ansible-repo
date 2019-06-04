@@ -19,3 +19,14 @@
   scm: git
   src: git@github.com:ansible/role-install-gcloud.git
   version: master  # there is no other tags - only master branch :/
+
+- name: andrzej-tests-1.sshguard
+  scm: git
+  src: git@github.com:andrzej-tests-1/ansible-role-sshguard.git
+  version: 1.0.0
+
+- name: gantsign.helm
+  scm: git
+  src: git@github.com:gantsign/ansible_role_helm.git
+  version: 1.5.0
+

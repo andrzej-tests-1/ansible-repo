@@ -4,18 +4,15 @@
   become: true
   gather_facts: yes
   roles:
+    - role: andrzej-tests-1.sshguard
     - role: geerlingguy.java
     - role: geerlingguy.jenkins
     - role: geerlingguy.docker
     - role: chouseknecht.gcloud
+    - role: gantsign.helm
   tasks:
     - name: Install apt packages
       apt:
         name: "{{ packages_apt }}"
         state: present
         update_cache: true
-    - name: Install snap packages
-      snap:
-        name: "{{ packages_snap }}"
-        state: present
-        classic: true
