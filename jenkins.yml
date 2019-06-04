@@ -8,7 +8,6 @@
     - role: geerlingguy.java
     - role: geerlingguy.jenkins
     - role: geerlingguy.docker
-    - role: chouseknecht.gcloud
     - role: gantsign.helm
   tasks:
     - name: Install apt packages

@@ -15,11 +15,6 @@
   src: git@github.com:geerlingguy/ansible-role-docker.git
   version: 2.5.2
 
-- name: chouseknecht.gcloud
-  scm: git
-  src: git@github.com:ansible/role-install-gcloud.git
-  version: master  # there is no other tags - only master branch :/
-
 - name: andrzej-tests-1.sshguard
   scm: git
   src: git@github.com:andrzej-tests-1/ansible-role-sshguard.git
