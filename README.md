@@ -3,6 +3,10 @@
 From this point you can apply all playbooks in this project.
 Below you can find information how to proceed with it.
 
+TODO:
+- all necessary installations should be performed from ansible automatically (gcloud, helm, kubect, ...)
+- all necessary credentials should be automatically applied in env (GCP vs K8S authorization on Jenkins host)
+
 ### If you want to configure terraform environment
 
 * install python3.7
